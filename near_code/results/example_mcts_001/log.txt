@@ -1,0 +1,168 @@
+INFO:root:Starting experiment example_mcts_001
+
+INFO:root:CURRENT program has avg fscore inf: Start(ListToListModule)
+INFO:root:Training sample program: Start(Map(Add(FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:Validation score is: 0.7441
+INFO:root:Average f1-score is: 0.2559
+INFO:root:Hamming accuracy is: 0.2520
+INFO:root:1 total programs trained
+INFO:root:New BEST program found:
+INFO:root:Start(Map(Add(FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:struct_cost 0.0300 | score 0.7441 | path_cost 0.7741 | time 0.3690
+INFO:root:Training sample program: Start(MapPrefixes(Fold(Add(FullFeatureSelect(), FullFeatureSelect()))))
+INFO:root:Validation score is: 0.7510
+INFO:root:Average f1-score is: 0.2490
+INFO:root:Hamming accuracy is: 0.2480
+INFO:root:2 total programs trained
+INFO:root:Training sample program: Start(Map(Multiply(FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:Validation score is: 0.7371
+INFO:root:Average f1-score is: 0.2629
+INFO:root:Hamming accuracy is: 0.2580
+INFO:root:3 total programs trained
+INFO:root:New BEST program found:
+INFO:root:Start(Map(Multiply(FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:struct_cost 0.0300 | score 0.7371 | path_cost 0.7671 | time 1.4904
+INFO:root:Training sample program: Start(MapPrefixes(Fold(Multiply(FullFeatureSelect(), FullFeatureSelect()))))
+INFO:root:Validation score is: 0.7256
+INFO:root:Average f1-score is: 0.2744
+INFO:root:Hamming accuracy is: 0.2740
+INFO:root:4 total programs trained
+INFO:root:New BEST program found:
+INFO:root:Start(MapPrefixes(Fold(Multiply(FullFeatureSelect(), FullFeatureSelect()))))
+INFO:root:struct_cost 0.0400 | score 0.7256 | path_cost 0.7656 | time 2.2519
+INFO:root:Training sample program: Start(Map(SimpleITE(FullFeatureSelect(), FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:Validation score is: 0.7532
+INFO:root:Average f1-score is: 0.2468
+INFO:root:Hamming accuracy is: 0.2470
+INFO:root:5 total programs trained
+INFO:root:Avg score 0.7781 for child Start(Map(AtomToAtomModule))
+INFO:root:Avg score 0.7783 for child Start(MapPrefixes(ListToAtomModule))
+INFO:root:SELECTING Start(Map(AtomToAtomModule)) as best child node
+
+INFO:root:DEBUG: time since start is 2.667
+
+INFO:root:CURRENT program has avg fscore 0.7781: Start(Map(AtomToAtomModule))
+INFO:root:Training sample program: Start(Map(FullFeatureSelect()))
+INFO:root:Validation score is: 0.7518
+INFO:root:Average f1-score is: 0.2482
+INFO:root:Hamming accuracy is: 0.2440
+INFO:root:6 total programs trained
+INFO:root:New BEST program found:
+INFO:root:Start(Map(FullFeatureSelect()))
+INFO:root:struct_cost 0.0100 | score 0.7518 | path_cost 0.7618 | time 2.9723
+INFO:root:Training sample program: Start(Map(FullFeatureSelect()))
+INFO:root:Validation score is: 0.7574
+INFO:root:Average f1-score is: 0.2426
+INFO:root:Hamming accuracy is: 0.2430
+INFO:root:7 total programs trained
+INFO:root:Training sample program: Start(Map(Multiply(FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:Validation score is: 0.7220
+INFO:root:Average f1-score is: 0.2780
+INFO:root:Hamming accuracy is: 0.2760
+INFO:root:8 total programs trained
+INFO:root:New BEST program found:
+INFO:root:Start(Map(Multiply(FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:struct_cost 0.0300 | score 0.7220 | path_cost 0.7520 | time 3.6497
+INFO:root:Training sample program: Start(Map(Add(FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:Validation score is: 0.7333
+INFO:root:Average f1-score is: 0.2667
+INFO:root:Hamming accuracy is: 0.2550
+INFO:root:9 total programs trained
+INFO:root:Training sample program: Start(Map(SimpleITE(FullFeatureSelect(), FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:Validation score is: 0.7655
+INFO:root:Average f1-score is: 0.2345
+INFO:root:Hamming accuracy is: 0.2340
+INFO:root:10 total programs trained
+INFO:root:Avg score 0.7687 for child Start(Map(Add(AtomToAtomModule, AtomToAtomModule)))
+INFO:root:Avg score 0.7596 for child Start(Map(Multiply(AtomToAtomModule, AtomToAtomModule)))
+INFO:root:Avg score 0.7994 for child Start(Map(SimpleITE(AtomToAtomModule, AtomToAtomModule, AtomToAtomModule)))
+INFO:root:Avg score 0.7646 for child Start(Map(FullFeatureSelect()))
+INFO:root:SELECTING Start(Map(Multiply(AtomToAtomModule, AtomToAtomModule))) as best child node
+
+INFO:root:DEBUG: time since start is 4.417
+
+INFO:root:CURRENT program has avg fscore 0.7596: Start(Map(Multiply(AtomToAtomModule, AtomToAtomModule)))
+INFO:root:Training sample program: Start(Map(Multiply(FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:Validation score is: 0.7433
+INFO:root:Average f1-score is: 0.2567
+INFO:root:Hamming accuracy is: 0.2550
+INFO:root:11 total programs trained
+INFO:root:Training sample program: Start(Map(Multiply(FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:Validation score is: 0.7656
+INFO:root:Average f1-score is: 0.2344
+INFO:root:Hamming accuracy is: 0.2330
+INFO:root:12 total programs trained
+INFO:root:Training sample program: Start(Map(Multiply(FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:Validation score is: 0.7294
+INFO:root:Average f1-score is: 0.2706
+INFO:root:Hamming accuracy is: 0.2660
+INFO:root:13 total programs trained
+INFO:root:Training sample program: Start(Map(Multiply(FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:Validation score is: 0.7381
+INFO:root:Average f1-score is: 0.2619
+INFO:root:Hamming accuracy is: 0.2600
+INFO:root:14 total programs trained
+INFO:root:Training sample program: Start(Map(Multiply(FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:Validation score is: 0.7516
+INFO:root:Average f1-score is: 0.2484
+INFO:root:Hamming accuracy is: 0.2410
+INFO:root:15 total programs trained
+INFO:root:Avg score 0.7769 for child Start(Map(Multiply(FullFeatureSelect(), AtomToAtomModule)))
+INFO:root:Avg score 0.7666 for child Start(Map(Multiply(AtomToAtomModule, FullFeatureSelect())))
+INFO:root:SELECTING Start(Map(Multiply(AtomToAtomModule, FullFeatureSelect()))) as best child node
+
+INFO:root:DEBUG: time since start is 7.035
+
+INFO:root:CURRENT program has avg fscore 0.7666: Start(Map(Multiply(AtomToAtomModule, FullFeatureSelect())))
+INFO:root:Training sample program: Start(Map(Multiply(FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:Validation score is: 0.7333
+INFO:root:Average f1-score is: 0.2667
+INFO:root:Hamming accuracy is: 0.2640
+INFO:root:16 total programs trained
+INFO:root:Training sample program: Start(Map(Multiply(FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:Validation score is: 0.7564
+INFO:root:Average f1-score is: 0.2436
+INFO:root:Hamming accuracy is: 0.2400
+INFO:root:17 total programs trained
+INFO:root:Training sample program: Start(Map(Multiply(FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:Validation score is: 0.7265
+INFO:root:Average f1-score is: 0.2735
+INFO:root:Hamming accuracy is: 0.2630
+INFO:root:18 total programs trained
+INFO:root:Training sample program: Start(Map(Multiply(FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:Validation score is: 0.7649
+INFO:root:Average f1-score is: 0.2351
+INFO:root:Hamming accuracy is: 0.2340
+INFO:root:19 total programs trained
+INFO:root:Training sample program: Start(Map(Multiply(FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:Validation score is: 0.7291
+INFO:root:Average f1-score is: 0.2709
+INFO:root:Hamming accuracy is: 0.2710
+INFO:root:20 total programs trained
+INFO:root:Avg score 0.7714 for child Start(Map(Multiply(FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:SELECTING Start(Map(Multiply(FullFeatureSelect(), FullFeatureSelect()))) as best child node
+
+INFO:root:DEBUG: time since start is 9.043
+
+INFO:root:
+
+INFO:root:BEST programs found:
+INFO:root:Start(Map(Add(FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:struct_cost 0.0300 | score 0.7441 | path_cost 0.7741 | time 0.3690
+INFO:root:Start(Map(Multiply(FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:struct_cost 0.0300 | score 0.7371 | path_cost 0.7671 | time 1.4904
+INFO:root:Start(MapPrefixes(Fold(Multiply(FullFeatureSelect(), FullFeatureSelect()))))
+INFO:root:struct_cost 0.0400 | score 0.7256 | path_cost 0.7656 | time 2.2519
+INFO:root:Start(Map(FullFeatureSelect()))
+INFO:root:struct_cost 0.0100 | score 0.7518 | path_cost 0.7618 | time 2.9723
+INFO:root:Start(Map(Multiply(FullFeatureSelect(), FullFeatureSelect())))
+INFO:root:struct_cost 0.0300 | score 0.7220 | path_cost 0.7520 | time 3.6497
+INFO:root:
+
+INFO:root:Evaluating program Start(Map(Multiply(FullFeatureSelect(), FullFeatureSelect()))) on TEST SET
+INFO:root:F1 score achieved is 0.2683
+INFO:root:Additional performance parameters: {'hamming_accuracy': 0.267, 'unweighted_f1': 0.26504899678479993, 'all_f1s': array([0.25049702, 0.28404669, 0.28980322, 0.23584906])}
+
+INFO:root:ALGORITHM END 
+
+
